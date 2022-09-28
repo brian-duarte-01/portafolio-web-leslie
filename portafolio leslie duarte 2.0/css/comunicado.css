@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+#fondo{
+    background-image: url(../img/fondocomunicado.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.fotos{
+    background: #6E3CBC;
+    height: 10250px;
+}
+.container{
+    flex-wrap: wrap;
+    padding-top: 5px;
+  
+}
+.card{
+    height: 800px;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+.card1{
+    height: 1500px;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+.card:hover,.card1:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+
+
+footer{
+    height: 100px;
+}
+.marca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+#fondo1{
+    background: #191919;
+}
+h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    h6{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+    }
+    .fotos{
+        background: #6E3CBC;
+        height: 5450px;
+    }
+    .card{
+        height: 400px;
+        width: 100%;
+        border-radius: 40px;
+        gap: 50px;
+    }
+    h5{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.finicio{
+  height: 550px;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+}
+#fondo{
+    background-image: url(../img/fondoweb.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h6{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+.galeria{
+background: #4C0070;
+height: 9900px;
+}
+h4{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.container{
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.card{
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.card1{
+    height: 1100px;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.card1:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
+#r{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+
+
+
+footer{
+    height: 100px;
+}
+.marca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+#fondo1{
+    background: #191919;
+}
+h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+
+@media(max-width:600px){
+    h6{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    } 
+
+
+
+    .galeria{
+        background: #4C0070;
+        height: 5290px;
+        }
+        h4{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .card{
+            height: 250px;
+            width: 100%;
+            border-radius: 30px;
+            margin-top: 50px;
+        }
+
+
+        .card1{
+            height: 550px;
+            width: 100%;
+            margin-top: 50px;
+            border-radius: 30px;
+        }
+        h5{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 10px;
+        }
+}

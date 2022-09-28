@@ -1,0 +1,323 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#fondo{
+    background-image: url(../img/fondo1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.i{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+
+
+
+#acerca{
+    background: #9D54D1;
+    height: 550px;
+}
+.acerca{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.card{
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0 ,0 ,0.9); 
+}
+.ace{
+   font-size: 15px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding: 10px;
+}
+#f{
+    height: 350px;
+    width: 350px;
+    border-radius: 40px;
+}
+#f:hover{
+    box-shadow: 5px 5px 20px rgba(0,0 ,0 ,0.9); 
+}
+
+
+
+#habilidades{
+    background: #BA63F7;
+    height: 400px;
+}
+
+.ha{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   
+    width: 90%;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.progress{
+    margin-top: 10px;
+}
+
+
+
+.adobe{
+    background: #B05EEB;
+    height: 300px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+   
+}
+.card1{
+    height: 100px;
+    width: 100px;
+}
+.a{
+    height: 100px;
+    width: 100px;
+}
+.a:hover{
+    box-shadow: 5px 5px 20px rgba(0,0 ,0 ,0.9); 
+}
+
+
+
+
+
+#proyectos{
+background: #502B6B;
+height: 1200px;
+
+}
+.tpro{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.card2{
+    height: 470px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.card2:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
+.img-fluid{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-dark{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contactame{
+    background: #110917;
+    height: 150px;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+.marca{
+    background: black;
+    height: 50px;
+}
+.mar{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+@media(max-width:700px){
+    .inicio{
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+    #fondo{
+        background-image: url(../img/fondo1.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    }
+    .i{
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+
+
+
+
+    
+#acerca{
+    background: #9D54D1;
+    height: 750px;
+}
+.acerca{
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+}
+.card{
+    height: 300px;
+    flex-basis: 95%;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.ace{
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+ #f{
+     height: 100%;
+     width: 100%;
+     border-radius: 40px;
+ }
+
+
+
+
+
+
+ .adobe{
+    background: #B05EEB;
+    height: 1450px;
+}
+.container1{
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+   
+}
+.card1{
+    height: 300px;
+    flex-basis: 95%;
+}
+.a{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+
+#proyectos{
+    background: #502B6B;
+    height: 2340px;
+    
+    }
+    .contenedor{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .card2{
+      flex-basis: 95%;
+      height: 500px;
+    }
+    .img-fluid{
+      width: 100%; 
+    }
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    .mar{
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 19px;
+    }
+
+
+}
